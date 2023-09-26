@@ -2,10 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class FollowPlayer : MonoBehaviour
+public class SpawnManager : MonoBehaviour
 {
-    public GameObject player; 
-    private Vector3 offset =  new Vector3(0, 4, -12);
     // Start is called before the first frame update
     void Start()
     {
@@ -16,6 +14,5 @@ public class FollowPlayer : MonoBehaviour
     void Update()
     {
         
-        transform.position = player.transform.position + offset;
     }
 }
