@@ -22,7 +22,7 @@ public class CollectPoints : MonoBehaviour
         if(Player == Treasure) 
         [
             Destroy(Treasure);
-            Debug.Log(" "+i+"points gained"+myIntArray)
+            Debug.Log(" "+Random.myIntArray+"points gained");
         ]
         else if(transform.position.z < bottomOfScene)
         {
