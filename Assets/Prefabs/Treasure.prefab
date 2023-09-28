@@ -120,6 +120,7 @@ GameObject:
   - component: {fileID: 7259883621632843396}
   - component: {fileID: 5762329502352166906}
   - component: {fileID: 2026361231100332020}
+  - component: {fileID: 4689445734590256493}
   m_Layer: 0
   m_Name: Treasure
   m_TagString: Untagged
@@ -208,7 +209,7 @@ SphereCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -250,4 +251,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 37e2c842f9d67534ab8bb7042eb5b4a6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 15
+  speed: 10
+--- !u!114 &4689445734590256493
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6435419385512136940}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a08f09a829bd1674cb56cf3e863b6701, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
